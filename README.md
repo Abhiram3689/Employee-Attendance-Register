@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RFID Based Attendance System
 
 A simple attendance system built using LPC2148 microcontroller and a Linux PC. The microcontroller reads an ID (via UART), appends a real-time timestamp from DS1307 RTC over I2C, and sends it to the PC over serial. The PC side checks the ID against a database and logs the entry as IN or OUT.
@@ -108,5 +107,3 @@ i2c_byte_write_frame(0xD0,0x0,0x48);  // seconds
 - Linux serial port configuration using `termios`
 - File based database lookup and logging in C
 =======
-# Employee-Attendance-Register
->>>>>>> 045962bc640a760385754f8528b6e438dd711ecc
